@@ -50,11 +50,11 @@ function draw(){
 
 //etc
 
-// make function to make point x,y where x and y in [-0;0] from 8 answers.
+// make function to make point x,y where x and y in [-10;10] from 8 answers.
 // Sum af værdier fra spørgsmål for at lave x- og y-koordinater
 var getPosition = function(q1, q2, q3, q4, q5, q6, q7, q8){
-    var x = (q1+q2+q3+q4)/4
-    var y = 0 // lav formel
+    var x = (q1+q2+q3+q4)/2
+    var y = (q5+q6+q7+q8)2
     return [x, y];
 }
 var placePressed = function(){
